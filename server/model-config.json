@@ -42,5 +42,17 @@
   "Tanque": {
     "dataSource": "db",
     "public": true
+  },
+  "Motobomba": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Ducha": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Grifo": {
+    "dataSource": "db",
+    "public": true
   }
 }

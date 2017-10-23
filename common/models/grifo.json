@@ -1,0 +1,26 @@
+{
+  "name": "Grifo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idGrifo": {
+      "type": "string",
+      "required": true
+    },
+    "estadoGrifo": {
+      "type": "boolean",
+      "required": true
+    },
+    "cantidadConsumida": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

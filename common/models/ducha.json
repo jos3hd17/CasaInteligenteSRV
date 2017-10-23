@@ -1,0 +1,37 @@
+{
+  "name": "Ducha",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idDucha": {
+      "type": "string",
+      "required": true
+    },
+    "usuarioActual": {
+      "type": "string"
+    },
+    "fechaIngreso": {
+      "type": "date",
+      "required": true
+    },
+    "fechaSalida": {
+      "type": "string"
+    },
+    "cantidadAguaInicialEnTanque": {
+      "type": "number"
+    },
+    "cantidadAguaConsumida": {
+      "type": "number"
+    },
+    "alertaPorConsumo": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
