@@ -1,0 +1,40 @@
+{
+  "name": "Usuario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "bloqueado": {
+      "type": "boolean",
+      "required": false
+    },
+    "codigo": {
+      "type": "number",
+      "required": true
+    },
+    "edad": {
+      "type": "number",
+      "required": true
+    },
+    "cuentaFacebook": {
+      "type": "string"
+    },
+    "cuentaInstagram": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Tanque",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idTanque": {
+      "type": "string",
+      "required": true
+    },
+    "cantidadMaxima": {
+      "type": "number",
+      "required": true
+    },
+    "cantidadActual": {
+      "type": "number",
+      "required": true
+    },
+    "fechaHoraUltimoLlenado": {
+      "type": "date",
+      "required": true
+    },
+    "cantidadMinima": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
