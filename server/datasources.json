@@ -1,5 +1,10 @@
 {
   "db": {
+    "url": "mongodb://jos3hd17:josedavid9a@ds231205.mlab.com:31205/casainteligente",
+    "connector": "mongodb"
+    
+  },
+  "mongo": {
     "host": "localhost",
     "port": 27017,
     "url": "",
